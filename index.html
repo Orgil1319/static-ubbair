@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>УБ Байр — Аюулгүй байрны зөвлөгч</title>
+  <meta name="description" content="Улаанбаатар хотод байр худалдаж авах, түрээслэхэд эрсдэлийн үнэлгээ, хуулийн зөвлөгөө, луйврын анхааруулга.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232563eb'/%3E%3Cpath d='M14 32 32 16l18 16v18H38V38H26v12H14z' fill='white'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+  <div class="topbar">
+    <button class="icon-btn" id="menu-open" type="button" aria-label="Цэс нээх">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <a href="#/" class="brand-text">УБ Байр</a>
+  </div>
+  <div class="scrim" id="scrim"></div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <button class="icon-btn" id="nav-back" type="button" aria-label="Буцах">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      </button>
+      <a href="#/" class="brand-text">УБ Байр</a>
+    </div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidebar-foot" id="sidebar-foot"></div>
+  </aside>
+  <main class="main" id="view" tabindex="-1"></main>
+  <nav class="bottom-nav" id="bottom-nav" aria-label="Үндсэн цэс"></nav>
+  <div id="chatbot"></div>
+  <div class="toasts" id="toasts"></div>
+  <noscript><div class="noscript">Энэ сайт JavaScript шаарддаг. Browser-ийнхаа JavaScript-ийг асаана уу.</div></noscript>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="data/properties.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/map.js"></script>
+  <script src="assets/js/advisor.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/pages-main.js"></script>
+  <script src="assets/js/pages-tools.js"></script>
+  <script src="assets/js/pages-contracts.js"></script>
+  <script src="assets/js/pages-account.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
